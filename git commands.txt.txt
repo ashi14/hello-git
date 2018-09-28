@@ -1,0 +1,16 @@
+#To create a new repository on the command line..
+
+git init
+git config --global user.name "ashi14"
+git config --global user.email "preetarsh1016@gmail.com"
+git add 'file name'
+git commit -m "first commit"
+git remote add origin https://github.com/ashi14/hello-git.git
+git push -u origin master
+
+#To push an existing repository from the command line
+
+git remote add origin https://github.com/ashi14/hello-git.git
+git push -u origin master
+
+
